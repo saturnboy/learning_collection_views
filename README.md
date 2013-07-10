@@ -1,8 +1,10 @@
 Learning Collection Views
 =========================
 
-Here's a set of Xcode project touching on some of the cool ways to use UICollectionView in your iOS apps.
+Here's a single Xcode project touching on some of the cool ways to use UICollectionView in your iOS apps.
 
-There are a few different apps, each exercising different aspects of collection views:
+Inside the project, there are a bunch of storyboards and associated view controllers, each exercising different aspects of collection views:
 
-1. UITableView 
+0. UITableView 
+1. UICollectionView grid
+1. UICollectionView single horizontal row
