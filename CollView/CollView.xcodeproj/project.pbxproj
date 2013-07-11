@@ -27,6 +27,8 @@
 		D0A9CF07178D0F4D00B5C443 /* ViewController0.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A9CEFB178D0F4D00B5C443 /* ViewController0.m */; };
 		D0A9CF08178D0F4D00B5C443 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A9CEFD178D0F4D00B5C443 /* ViewController1.m */; };
 		D0A9CF0B178D0FEA00B5C443 /* Storyboard1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A9CF09178D0FEA00B5C443 /* Storyboard1.storyboard */; };
+		D0ABC09C178E597B0021BFC5 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ABC09B178E597B0021BFC5 /* ViewController2.m */; };
+		D0ABC09F178E598C0021BFC5 /* Storyboard2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0ABC09D178E598C0021BFC5 /* Storyboard2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,9 @@
 		D0A9CEFC178D0F4D00B5C443 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
 		D0A9CEFD178D0F4D00B5C443 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		D0A9CF0A178D0FEA00B5C443 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Storyboard1.storyboard; sourceTree = "<group>"; };
+		D0ABC09A178E597B0021BFC5 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		D0ABC09B178E597B0021BFC5 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		D0ABC09E178E598C0021BFC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Storyboard2.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +118,9 @@
 				D0A9CF09178D0FEA00B5C443 /* Storyboard1.storyboard */,
 				D0A9CEFC178D0F4D00B5C443 /* ViewController1.h */,
 				D0A9CEFD178D0F4D00B5C443 /* ViewController1.m */,
+				D0ABC09D178E598C0021BFC5 /* Storyboard2.storyboard */,
+				D0ABC09A178E597B0021BFC5 /* ViewController2.h */,
+				D0ABC09B178E597B0021BFC5 /* ViewController2.m */,
 				D0A9CEF5178D0F4D00B5C443 /* datasource */,
 				D00199B4178D0E0200FB1877 /* Supporting Files */,
 			);
@@ -218,6 +226,7 @@
 				D0A9CF03178D0F4D00B5C443 /* Default.png in Resources */,
 				D0A9CF04178D0F4D00B5C443 /* Default@2x.png in Resources */,
 				D0A9CF0B178D0FEA00B5C443 /* Storyboard1.storyboard in Resources */,
+				D0ABC09F178E598C0021BFC5 /* Storyboard2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +243,7 @@
 				D0A9CF06178D0F4D00B5C443 /* Person.m in Sources */,
 				D0A9CF07178D0F4D00B5C443 /* ViewController0.m in Sources */,
 				D0A9CF08178D0F4D00B5C443 /* ViewController1.m in Sources */,
+				D0ABC09C178E597B0021BFC5 /* ViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +280,14 @@
 				D0A9CF0A178D0FEA00B5C443 /* en */,
 			);
 			name = Storyboard1.storyboard;
+			sourceTree = "<group>";
+		};
+		D0ABC09D178E598C0021BFC5 /* Storyboard2.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0ABC09E178E598C0021BFC5 /* en */,
+			);
+			name = Storyboard2.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
