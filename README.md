@@ -13,7 +13,10 @@ __Storyboard1__
 * UICollectionView as a grid - display data in a grid
 
 __Storyboard2__
-* UICollectionView as a row row - display data in a scrollable horizontal row
+* UICollectionView as a paged scroll view - display data in a one-cell-per-page horizontal scrollable paged view
+
+__Storyboard3__
+* UICollectionView as a row - display data in a single scrolling row via a custom horizontal line layout
 
 =====
 _all code is MIT_
