@@ -1,6 +1,6 @@
 //
-//  MyCollView1Controller.m
-//  CollView1
+//  ViewController1.m
+//  CollView
 //
 //  Created by Justin on 7/9/13.
 //  Copyright (c) 2013 Saturnboy. All rights reserved.
