@@ -7,16 +7,21 @@ Inside the project, there are a bunch of storyboards and their associated view c
 example of different aspects of collection views.  There are also various how-to-extend exercises:
 
 __Storyboard0__
-* UITableView - before collection views there were only tables
+
+* UITableView -- before collection views there were only tables
 
 __Storyboard1__
-* UICollectionView as a grid - display data in a grid
+
+* UICollectionView as a grid -- display data in a grid
 
 __Storyboard2__
-* UICollectionView as a paged scroll view - display data in a one-cell-per-page horizontal scrollable paged view
+
+* UICollectionView as a paged scroll view -- display data in a one-cell-per-page horizontal scrollable paged view
 
 __Storyboard3__
-* UICollectionView as a row - display data in a single scrolling row via a custom horizontal line layout
 
-=====
-_all code is MIT_
+* UICollectionView with custom cell -- display data in a custom cell
+
+__Storyboard4__
+
+* UICollectionView as a row -- display data in a single scrolling row via a custom horizontal line layout
