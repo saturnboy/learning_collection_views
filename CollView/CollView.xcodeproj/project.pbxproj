@@ -15,6 +15,8 @@
 		D00199BE178D0E0200FB1877 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D00199BD178D0E0200FB1877 /* AppDelegate.m */; };
 		D00199C7178D0E0200FB1877 /* Storyboard0.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00199C5178D0E0200FB1877 /* Storyboard0.storyboard */; };
 		D00199CA178D0E0200FB1877 /* Storyboard0_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00199C8178D0E0200FB1877 /* Storyboard0_iPad.storyboard */; };
+		D01D9DE317959F9C009C2EE1 /* ViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = D01D9DDB17959F9C009C2EE1 /* ViewController4.m */; };
+		D01D9DE617959FB4009C2EE1 /* Storyboard4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01D9DE417959FB4009C2EE1 /* Storyboard4.storyboard */; };
 		D03E96CC1794FAAE006ABD1E /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = D03E96CB1794FAAE006ABD1E /* ViewController3.m */; };
 		D03E96CF1794FABB006ABD1E /* Storyboard3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03E96CD1794FABB006ABD1E /* Storyboard3.storyboard */; };
 		D03E96D21794FB33006ABD1E /* CustomCell3.m in Sources */ = {isa = PBXBuildFile; fileRef = D03E96D11794FB33006ABD1E /* CustomCell3.m */; };
@@ -47,6 +49,9 @@
 		D00199BD178D0E0200FB1877 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D00199C6178D0E0200FB1877 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Storyboard0.storyboard; sourceTree = "<group>"; };
 		D00199C9178D0E0200FB1877 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Storyboard0_iPad.storyboard; sourceTree = "<group>"; };
+		D01D9DDA17959F9C009C2EE1 /* ViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController4.h; sourceTree = "<group>"; };
+		D01D9DDB17959F9C009C2EE1 /* ViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController4.m; sourceTree = "<group>"; };
+		D01D9DE517959FB4009C2EE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Storyboard4.storyboard; sourceTree = "<group>"; };
 		D03E96CA1794FAAE006ABD1E /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
 		D03E96CB1794FAAE006ABD1E /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 		D03E96CE1794FABB006ABD1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Storyboard3.storyboard; sourceTree = "<group>"; };
@@ -134,6 +139,9 @@
 				D03E96CB1794FAAE006ABD1E /* ViewController3.m */,
 				D03E96D01794FB33006ABD1E /* CustomCell3.h */,
 				D03E96D11794FB33006ABD1E /* CustomCell3.m */,
+				D01D9DE417959FB4009C2EE1 /* Storyboard4.storyboard */,
+				D01D9DDA17959F9C009C2EE1 /* ViewController4.h */,
+				D01D9DDB17959F9C009C2EE1 /* ViewController4.m */,
 				D0A9CEF5178D0F4D00B5C443 /* datasource */,
 				D00199B4178D0E0200FB1877 /* Supporting Files */,
 			);
@@ -241,6 +249,7 @@
 				D0A9CF0B178D0FEA00B5C443 /* Storyboard1.storyboard in Resources */,
 				D0ABC09F178E598C0021BFC5 /* Storyboard2.storyboard in Resources */,
 				D03E96CF1794FABB006ABD1E /* Storyboard3.storyboard in Resources */,
+				D01D9DE617959FB4009C2EE1 /* Storyboard4.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +269,7 @@
 				D0ABC09C178E597B0021BFC5 /* ViewController2.m in Sources */,
 				D03E96CC1794FAAE006ABD1E /* ViewController3.m in Sources */,
 				D03E96D21794FB33006ABD1E /* CustomCell3.m in Sources */,
+				D01D9DE317959F9C009C2EE1 /* ViewController4.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +298,14 @@
 				D00199C9178D0E0200FB1877 /* en */,
 			);
 			name = Storyboard0_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D01D9DE417959FB4009C2EE1 /* Storyboard4.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D01D9DE517959FB4009C2EE1 /* en */,
+			);
+			name = Storyboard4.storyboard;
 			sourceTree = "<group>";
 		};
 		D03E96CD1794FABB006ABD1E /* Storyboard3.storyboard */ = {
