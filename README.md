@@ -24,4 +24,8 @@ __Storyboard3__
 
 __Storyboard4__
 
-* UICollectionView as a row -- display data in a single scrolling row via a custom horizontal line layout
+* UICollectionView as a row -- display data in a single scrolling horizontal row via a subview
+
+__Storyboard5__
+
+* UICollectionView inside a UICollectionViewCell -- display data in a grid inside a horizontal pager
