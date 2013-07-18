@@ -56,7 +56,6 @@
     Person *p = [[People sharedInstance] person:indexPath.item];
     UILabel* lbl = (UILabel *)[cell viewWithTag:123];
     lbl.text = [p.name stringByReplacingOccurrencesOfString:@" " withString:@"\n" options:0 range:NSMakeRange(0, p.name.length)];
-    [cell addSubview:lbl];
     
     return cell;
 }

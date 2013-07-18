@@ -49,7 +49,6 @@
     
     UILabel* lbl = (UILabel *)[cell viewWithTag:1234];
     lbl.text = [NSString stringWithFormat:@"%d", (indexPath.item + 1)];
-    [cell addSubview:lbl];
     
     return cell;
 }

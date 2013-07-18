@@ -56,7 +56,6 @@
     Person *p = [[People sharedInstance] person:indexPath.item];
     UILabel* lbl = (UILabel *)[cell viewWithTag:123];
     lbl.text = [p.name stringByReplacingOccurrencesOfString:@" " withString:@"\n" options:0 range:NSMakeRange(0, p.name.length)];
-    [cell addSubview:lbl];
     
     // add bg color so we can see cells
     cell.backgroundColor = [UIColor colorWithRed:(indexPath.item % 2 == 0 ? 0.3f : 0.2f)
